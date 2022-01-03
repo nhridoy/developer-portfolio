@@ -8,14 +8,18 @@ body {
 h1 {
   font-size: 40px;
 }
+section {
+  height: 100vh;
+}
 .header {
   background-image: url("images/top-banner.png");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .orange {
   color: orange;
 }
-.header-content {
+.content {
   display: flex;
   gap: 10px;
   padding: 50px;
@@ -31,7 +35,9 @@ h1 {
   text-align: justify;
 }
 .half img {
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 80%;
 }
 .social {
   display: flex;
@@ -52,7 +58,7 @@ h1 {
 .linkedin:hover {
   color: #0b66c3;
 }
-.hire-btn {
+.btn {
   background: linear-gradient(90deg, #f78c6d, #fb6555);
   padding: 5px 20px;
   border-radius: 5px;
@@ -60,6 +66,15 @@ h1 {
   color: white;
   font-weight: bold;
 }
-.hire-btn:hover {
+.btn:hover {
   background: linear-gradient(90deg, #fb6555, #f78c6d);
+}
+.arrow {
+  text-align: center;
+}
+
+.body {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
