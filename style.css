@@ -113,3 +113,8 @@ p {
   border-image: linear-gradient(180deg, #35b6e9, #0058a3);
   border-image-slice: 1;
 }
+.footer {
+  text-align: center;
+  color: white;
+  background: rgb(41, 41, 41);
+}
