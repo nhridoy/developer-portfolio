@@ -78,3 +78,38 @@ section {
   background-repeat: no-repeat;
   background-position: right;
 }
+
+.experience {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.center {
+  text-align: center;
+  padding-top: 20px;
+}
+.card-content {
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  box-shadow: 0 0 27px gray;
+  width: 50%;
+  padding: 40px 0;
+}
+.card h1,
+b,
+p {
+  padding: 20px;
+}
+.card-left {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, #fb6555, #f78c6d);
+  border-image-slice: 1;
+}
+.card-right {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, #35b6e9, #0058a3);
+  border-image-slice: 1;
+}
